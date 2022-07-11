@@ -1,0 +1,13 @@
+
+
+body{
+   margin: 0 auto;
+}
+.wrapper{
+margin: 0;
+padding:0;
+    width: 100%;
+    height: 100vh;
+    background: url(../img/airplane.png) center/ 300px 250px no-repeat , url(../img/plane.png) top left / 300px 250px no-repeat , url(../img/neba.jpg) top / 1394px 1000px no-repeat ;
+
+}

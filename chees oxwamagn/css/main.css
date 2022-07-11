@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+}
+body{
+margin: 0;
+padding: 0;
+}
+.container{
+    margin: 0 auto;
+    padding: 0px 20px;
+    width: 1180px;
+}
+.site-section{
+    display: flex;
+
+}
+.site-box{
+    margin: 10px 20px;
+    width:380px ;
+    height: 560px ; 
+    background-color: #FEE9A5;
+    border-radius: 10px;
+    background: url("../img/yure.png") 3px 217px/ 162px 162px no-repeat , url("../img/yulduz.png") 60% 10% no-repeat,
+    url("../img/yure.png")  100% 80% no-repeat,
+    url("../img/yulduz.png") 30% 80% no-repeat ;
+}
+.site-box-left{
+    padding: 40px 30px ;  
+}
+.section-box-title{
+    padding-bottom: 10px;
+    width: 50%;
+/* width: 320px; */
+height: 60px;
+}
+
+.section-box-text{
+    width: 320px;
+    height: 60px; 
+    padding-bottom: 316px;
+}
+.site-box-left-title{
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+     color: #4E2D2D;
+}
+.site-box-left-text{
+    margin-bottom: 317px;
+    font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #666666;
+}
+.a-class{
+    margin-left: 20px;
+margin-top: 316px;
+}
+.site-box-left-link{
+    padding: 16px 29px ;
+    font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+text-decoration: none;
+color: #FFFFFF;
+background: #FD9339;
+border-radius: 5px;
+}
+.right-box{
+    width: 100%;
+}
+.site-box-right{
+    display: flex;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+
+gap: 1 rem;
+}
+.site-box-right-title{
+    margin: 20px 20px ;
+    padding: 20px 20px;
+}
+.site-right-link{
+    text-decoration: none;
+    font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #FD9339;
+}
+.site-right-title{
+    display: flex;
+    align-items: center;
+    gap: 1 rem;
+    text-transform: capitalize;
+    font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.01em;
+text-transform: uppercase;
+color: #4E2D2D;
+}
+.site-right-text{
+    width: 360px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.6;    
+}

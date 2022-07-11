@@ -1,0 +1,267 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+}
+@font-face {
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+    url('../fonts/exo-2-v19-latin-regular.woff2') format('woff2'), 
+    url('../fonts/exo-2-v19-latin-regular.woff') format('woff'); 
+}
+@font-face {
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+    url('../fonts/exo-2-v19-latin-600.woff2') format('woff2'), 
+    url('../fonts/exo-2-v19-latin-600.woff') format('woff'); 
+}
+
+@font-face {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+    url('../fonts/pt-sans-v17-latin-regular.woff2') format('woff2'), 
+    url('../fonts/pt-sans-v17-latin-regular.woff') format('woff'); 
+}
+.visully-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0)
+}
+.site-section{
+    margin: 0 auto;
+    padding: 0 20px;
+    background-image: url("..//img/photo_2022-06-26_10-21-03.jpg");
+    background-repeat: no-repeat;
+    background-size: 508px 787px;
+    background-position: right;
+}
+.container{
+    width: 1240px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.site-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 44px auto;
+    padding: 20px 20px;
+    
+}
+
+.section-title{
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 125%;
+    color: #363738;
+    
+}
+.section-link{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #363738;    
+    text-decoration: none;
+    width: 104px;
+    height: 0px;
+    border-bottom: 3px solid #FFCE50;
+}
+.section-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #6B6B6C;
+    
+}
+.middle-title{
+    margin: 0;
+    padding: 0;
+    padding: 40px 0;
+    display: flex;
+    list-style-type: none;
+    margin: 0 auto;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+}
+.middle-text{
+    margin: 0;
+    padding: 0;
+    
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #6B6B6C;
+    
+}
+.dostafka-title{
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 135%;
+    color: #363738;
+}
+
+
+.middle-list:nth-child(1){
+    padding: 0px 80px 0px 105px;
+}
+.middle-list:nth-child(2){
+    padding:0px 64px 0 121px ;
+}
+.middle-list:nth-child(3){
+    padding:0px 64px 0 125px ;
+}
+.title-end{
+    width:781px ;
+    height: 49px;
+    margin-bottom:32px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 125%;
+ color: #363738;
+}
+.text-end{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #6B6B6C;  
+}
+.magazin-tovar{
+    display: flex;
+  
+
+}
+.magazin-list{
+ 
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.magazin-title:hover{
+    border: 1px solid #0B7572;
+    border-radius: 10px;
+}
+.magazin-title{
+    background-image: url(../img/Rectangle\ 3.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    padding-bottom: 48px;
+   border: 1px solid transparent;
+width: 687px;
+display: flex;
+align-items: center;
+margin-bottom: 16px;
+}
+.magazin-text{
+    margin: 0;
+    padding: 0;
+ 
+    font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #6B6B6C;
+}
+.magazin-title-mid{
+    margin: 0;
+    padding: 0;
+
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+  color: #363738;}
+.section-radio{
+margin-right: 32px;
+margin-top: -46px ;
+}
+
+.Проголосовало-text{font-weight: 600;
+    font-size: 15px;
+    line-height: 150%;
+ letter-spacing: 0.3em;
+ color: #363738;
+ opacity: 0.8;
+ border-bottom: 3px solid #FFCE50;
+}
+.end-span{
+    margin:  20px auto;
+    padding: 20px 20px;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 150%;
+letter-spacing: 0.3em;
+ color: #363738;}
+
+.flex-contaner{
+    justify-content: space-between;
+    display: flex;
+}
+
+.truck-section{
+    padding: 160px 0 184px 0;
+    background-image: url("../img/ba.png"), url("../img/background\ fond.png");
+    background-repeat: no-repeat;
+    background-position-x: 0, 400px;
+
+}
+.truck-title{
+    
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 125%;
+     color: #FFFFFF;    
+}
+.container-truck{
+
+}
+
+.title-truck{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+padding: 20px 10px;
+width: 450px;
+}
+.truck-title-mid{
+    display: flex;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 135%;
+ color: #363738;
+}
+.text-truck{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 291px;
+    height: 41px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+  color: #6B6B6C;
+
+}
+.truc-wrapp{
+   
+    width: 291px;
+}
+.list-truck{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,90 @@
+*{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    background-color: #75496A;
+}
+.container{
+    width: 1204px;
+    height: 516px;
+margin: 0 auto;
+padding: 0px 0px;
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+border: 2px solid white;
+
+}
+.top-block{
+    width:400px ;
+    height: 400px;  
+}
+.mid-block{
+    background-color: white     ;
+    margin-top:41px ;
+    padding: 0 15px 15px 15px;
+    width:400px ;
+    height: 400px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.site-title{
+    margin-top: 86px;
+    margin-left: 113px;
+text-transform: uppercase;
+color: white;
+}
+.site-text{
+    width: 130px;
+background-color: white;
+color: #75496A;
+display: block;
+}
+.site-title-top{
+    text-align: center;
+    text-transform: uppercase;
+    width: 271px;
+    padding: 9px;
+    font-size: 18px;
+    margin-top: -23px;
+    margin-left: 44px;
+    background-color: #02C2C3;
+    color: white;
+    
+}
+.site-form{
+    background-color: #fff;
+  
+}
+.strong-site{
+    background-color: white;
+}
+.site-lable{
+    margin-top: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; 
+    background-color: #fff;
+color: black;}
+.site-lable:first-child{
+    margin-top: 40px;
+}
+.header-input{
+    border: 2px solid #02C2C3 ;
+    margin-top: 10px;
+width: 100%;
+background-color: #fff;
+
+}
+.header-button{
+    cursor: pointer;
+    border: 2px solid #02C2C3;
+    color: white;
+    background-color:#02C2C3 ;
+    margin: 39px 3px;
+    padding: 10px 125px;
+}

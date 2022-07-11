@@ -1,0 +1,44 @@
+*{
+   -webkit-box-sizing: border-box;
+           box-sizing: border-box;
+  margin:19px -13px;
+  padding:2px 46px;
+  }
+  body{
+     width: 1068px;
+   text-align: center; 
+  margin: 7px 140px;
+  background-color:#FEF5AE ;
+  }
+  .project{
+     margin: 62px auto 0 auto;
+     padding-top: 20px;
+     width: 500px;
+  }
+  .site-form{ 
+     -webkit-box-shadow: 10px 10px 1px 0 #FEA47F; 
+             box-shadow: 10px 10px 1px 0 #FEA47F;
+     border: 2px solid black;
+  background-color: white;
+  }
+  .site-div{
+     width: 250px;
+     padding: 15px;
+     margin: 15px auto;
+  }
+  .site-link{
+  border: 2px solid;
+  background-color: #ffffff;
+  }
+  .site-link:hover{
+     background-color: #FEA47F;
+     -webkit-box-shadow: 4px 4px 0 0 #94A3FE;
+             box-shadow: 4px 4px 0 0 #94A3FE;
+     -webkit-transform: scale(2);
+         -ms-transform: scale(2);
+             transform: scale(2);
+     -webkit-transition: 2s;
+     -o-transition: 2s;
+     transition: 2s;
+  }
+  /* korinsin dip wunaqa transition blan transform berdim  */

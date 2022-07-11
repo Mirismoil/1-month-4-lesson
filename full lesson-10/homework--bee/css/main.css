@@ -1,0 +1,11 @@
+body{
+    margin: 0 auto;
+}
+ .wrapper{
+ margin: 0;
+ padding:0;
+     width: 100%;
+     height: 100vh;
+     background:url(../img/bee.png) left center / 250px 180px no-repeat , url(../img/bee.png) top center / 250px 180px no-repeat , url(../img/flower.jpg) top / 1394px 1000px no-repeat ;
+ 
+ }

@@ -1,0 +1,24 @@
+body{
+    background-color:#E7796E;
+}
+
+.title{
+    text-align: center;
+}
+
+.list{
+    line-height: 40px;
+padding: 15px;
+   background-color: #ffffff;
+       width: 650px;
+
+   display: flex;
+   justify-content: space-between;
+ list-style: none;
+}
+.heading{
+   color:#E7796E  ;
+}
+.sublist{
+    list-style-type: none;
+}
